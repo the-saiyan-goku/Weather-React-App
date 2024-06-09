@@ -1,0 +1,31 @@
+/* Define CSS variables for light mode */
+:root {
+  --body-bg: rgb(175, 164, 164);
+  --container-bg: rgba(58, 13, 13, 0.8);
+  --city-bg: rgb(124, 92, 92);
+  --text-color: black;
+  --link-color: blue;
+}
+
+/* Define CSS variables for dark mode */
+[data-theme="dark"] {
+  --body-bg: #282c34;
+  --container-bg: rgba(44, 44, 44, 0.8);
+  --city-bg: #444;
+  --text-color: white;
+  --link-color: cyan;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
