@@ -1,6 +1,9 @@
 {
+  "projects": {
+    "default": "weatherapp-reactjs-master"
+  },
   "hosting": {
-    "public": "public",
+    "public": "build",
     "ignore": [
       "firebase.json",
       "**/.*",
@@ -14,3 +17,4 @@
     ]
   }
 }
+ 
