@@ -45,11 +45,14 @@ A weather application built with React that uses the OpenWeatherAPI to fetch wea
     npm start
    
 
-2. Open your browser and go to `http://localhost:3000`.
+3. Open your browser and go to `http://localhost:3000`.
 
-3. Use the search bar to enter a city name or postal code to get the weather data.
+4. Use the search bar to enter a city name or postal code to get the weather data.
 
-4. Click the toggle button to switch between dark mode and light mode.
+5. Click the toggle button to switch between dark mode and light mode.
+   ## Issues
+    There is an issue on deploying project on firebase server, but the project is running on local host , so use
+    " npm start " instead of using direct domain of firebase server .
 
 ## Code Overview
 
